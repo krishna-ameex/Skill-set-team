@@ -1,0 +1,52 @@
+﻿ .basik
+        {
+            height: 561px;
+
+        }
+       .basik table
+        {    z-index: 1;
+    left: 243px;
+    top: 372px;
+    position: absolute;
+    height: 27px;
+    width: 82px;
+   display:none;
+}
+      
+
+ .fld ul
+{
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+.fld ul li a
+{
+    margin-left: 100px;
+    padding: 1px;
+    font-size:x-large;
+}
+
+.fld ul li
+{
+    display: inline-block;
+  
+    padding: 3px;
+    margin-left: 100px;
+   
+   border-left-color:#446161;
+    margin-left: 130px;
+    box-shadow: 10px 13px 10px #888888;
+    width: 470px;
+}
+
+    .fld ul li a:hover
+    {
+        color: orange;
+        
+    }
+
+    .fld ul li a:active
+    {
+        color: orange;
+    }            

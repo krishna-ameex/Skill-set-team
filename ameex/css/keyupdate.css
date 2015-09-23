@@ -1,0 +1,107 @@
+﻿
+#skills
+{
+    width:630px;
+    float:left;
+    display:inline-block;
+    height:686px;
+    margin-right: 751px;
+}
+.skil
+{
+    margin-top:10px;
+    margin-left:200px;
+    width: 621px;
+}
+#CheckBoxList1 label
+{
+    padding-bottom:50px
+}
+#skil_des1
+{    width:600px;
+      margin-top:0px;
+       height:40px;
+ 
+    float:left;    
+}
+#skil_des2
+{
+   width:600px;
+    margin-top:40px;
+    margin-left:0px;
+    height:40px;
+   
+}
+#skil_des3
+{
+    width:600px;
+    margin-top:40px;
+    height:40px;
+  
+    float:left;
+}
+#skil_des4
+{
+     width:600px;
+    margin-top:0px;
+    height:40px;   
+    float:left;
+}
+#skil_des5
+{
+     width:600px;
+    margin-top:0px;
+    
+    height:40px;
+    
+    float:left;
+}
+
+#root
+{
+    width:100%;
+    height:100%;
+}
+
+.fld ul
+{
+    text-decoration:none;
+    list-style-type:none;
+    
+}
+.fld ul li a
+{
+    margin-left: 130px;
+    padding: 1px;
+    
+}
+
+.fld ul li
+{
+    display: inline-block;
+  
+    padding: 3px;
+    margin-left: 100px;
+    border:inset;
+    margin-left: 130px;
+    box-shadow: 10px 3px 10px #888888;
+
+    
+  
+
+}
+
+    .fld ul li a:hover
+    {
+        color: orange;
+        font-size: 18px;
+    }
+
+    .fld ul li a:active
+    {
+        color: orange;
+    }
+.fld
+{
+    margin-top:-3px;
+}

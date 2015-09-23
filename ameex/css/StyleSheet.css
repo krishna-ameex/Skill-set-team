@@ -1,0 +1,129 @@
+﻿*
+{
+    text-decoration:none;
+    list-style-type:none;
+     
+}
+
+body
+{
+ background-color:#F4F4F4;
+}
+.layout
+{
+    
+    background-color:#EBEBE0;
+   
+   
+   
+}
+.cont
+{
+    
+ 
+    width:100%;
+    height:900px;
+    background-color:#CDD5D5;
+}
+    
+.logo
+{
+    height:130px;
+    width:100%;
+    background-color:#446161;
+}
+#Image1
+{margin-top: 1%;
+}
+#menu li
+{
+    
+    display:inline-block;
+    float:left;
+    margin-left:50px;
+    padding:7px;
+    height: 23px;
+     
+    
+}
+    #menu li a
+    {
+      background-color:#446161;
+      color:white;
+
+    }
+#menu
+{
+   
+    margin-top:25px;
+    margin-left: 72%;
+    width:100%;
+}
+    #menu li a:hover
+    {
+        height:30px;
+        width:40px;
+        color:red;
+        font-size:20px;
+        transition: all 200ms ease;
+    }
+   
+.hlp
+{
+     float: right;
+    margin-top: -60px;
+    
+}
+#hlpp li
+{
+    display:inline-block;
+    float:left;
+    padding:7px;
+   margin-top:0;
+    
+    background-color:#CECEB6;
+}
+.hlp #hlpp li #Image3
+{
+    /* margin-left: 0px; */
+    z-index: 1;
+    /* left: 989px; */
+    /* top: 76px; */
+    position:fixed;
+    /* position: absolute; */
+    height: 18px;
+    /* margin-top: 5px; */
+}
+.hlp #hlpp li #A5
+{
+    z-index: 1;
+    /* left: 1018px; */
+    /* top: 81px; */
+    /* position: absolute; */
+    /* width: 52px; */
+    /* height: 23px; */
+}
+.hlp ul li a:hover
+{
+    font-size:20px;
+        transition: all 200ms ease;
+        color:red;
+    
+}
+.hlp ul li a
+{
+     background-color:#CECEB6;
+}
+.footer
+{
+    
+    margin-top:-20px;
+    height:30px;
+    background-color:#446161;
+    height:50px;
+}
+    .footer ul li
+    {
+        margin-left:380px;
+        height:50px;
+    }

@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<link href="css/StyleSheet.css" rel="stylesheet" />
+ <html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>skillset management</title>
+     <asp:ContentPlaceHolder id="head" runat="server">
+         </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #menu
+        {
+            height: 41px;
+          margin-left: 72%;
+        }
+        #A5
+        {
+            z-index: 1;
+            left: 977px;
+            top: 85px;
+            position: absolute;
+            width: 52px;
+            height: 23px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <div class="layout">
+        <div class="logo">
+            <asp:Image id="Image1" runat="server"
+               AlternateText="logo"
+               ImageUrl="images/download.jpg" Height="44px" />
+            <asp:Label ID="Label1" runat="server" Text="SKILL SET MANAGEMENT" Font-Bold="True" Font-Italic="True" Font-Names="Microsoft New Tai Lue" Font-Size="XX-Large" ForeColor="#FFFDF4" style="z-index: 1; left: 398px; top: 31px; position: absolute; width: 604px; height: 36px; bottom: 459px;"></asp:Label>
+                   <%-- <ul id="menu">
+                        
+                        <li><a id="A3" runat="server" href="~/login.aspx">SIGN IN</a></li>
+                        <li><a id="A2" runat="server" href="~/registration.aspx">SIGN UP</a></li>
+                        
+                      
+                    </ul>--%>
+            </div>
+            
+           </div>
+    <div class="cont">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+    <div class="footer">
+   <ul> 
+       <li>Copyright &copy;2015 Ameex Technologies Corp. All Right Reserved.</li>
+       </ul>
+     </div>  
+    </form>
+    
+</body>
+   
+</html>

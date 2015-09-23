@@ -1,0 +1,74 @@
+﻿.fld
+{
+    height: 700px;
+    background-color: #D7DFDF;
+    margin-top: 0;
+    width: 950px;
+    margin-left: 190px;
+}
+
+.tab
+{
+    margin-left: 100px;
+    margin-top: 60px;
+    background-color: #D7DFDF;
+}
+
+    .tab tr, .tab td, .tab span, .fld
+    {
+        background-color: #D7DFDF;
+    }
+
+.fled
+{
+    height: 300px;
+    background-color: #D7DFDF;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 750px;
+}
+
+.tabl
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #D7DFDF;
+}
+
+    .tabl tr, .tabl td, .tabl span, .fled
+    {
+        background-color: #D7DFDF;
+    }
+
+.fld ul li a
+{
+    margin-left: 130px;
+    padding: 1px;
+     
+}
+
+.fld ul li
+{
+    display: inline-block;
+    float: left;
+    padding: 3px;
+    margin-left: 100px;
+    border:inset;
+    margin-left: 130px;
+    box-shadow: 10px 3px 10px #888888;
+
+    
+  
+
+}
+
+    .fld ul li a:hover
+    {
+        color: orange;
+        font-size: 18px;
+    }
+
+    .fld ul li a:active
+    {
+        color: orange;
+    }

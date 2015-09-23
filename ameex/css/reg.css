@@ -1,0 +1,22 @@
+﻿.fld
+{
+    height:700px;
+    background-color:#D7DFDF;
+    margin-top:0;
+    width:950px;
+    margin-left:190px;
+
+}
+.tab
+{
+    margin-left:100px;
+    margin-top:100px;
+
+    background-color:#D7DFDF;
+    
+}
+    .tab tr,.tab td, .tab span,.fld
+    {
+        background-color:#D7DFDF;
+    }
+ 
